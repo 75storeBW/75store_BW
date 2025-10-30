@@ -33,6 +33,14 @@
         nav a:hover {
             color: #ff4081;
         }
+        .description {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #dcdcdc;
+        }
         .products {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -53,11 +61,8 @@
             max-width: 100%;
             border-radius: 10px;
         }
-        .product h3 {
+        .product h3, .product p {
             margin: 10px 0 5px 0;
-        }
-        .product p {
-            margin: 5px 0;
         }
         footer {
             text-align: center;
@@ -73,6 +78,12 @@
 
 <header>75store_BW</header>
 
+<div class="description">
+    Willkommen bei <strong>75store_BW</strong> – deinem Ziel für exklusive Streetwear mit Stil.<br>
+    Entdecke unsere neuesten Kollektionen für <strong>Damen</strong> und <strong>Herren</strong>, elegant, dezent und mit einem unverwechselbaren Touch.<br>
+    Jedes Teil wurde mit Liebe zum Detail ausgewählt – für alle, die Mode nicht nur tragen, sondern leben.
+</div>
+
 <nav>
     <a href="#damen">Damen</a>
     <a href="#herren">Herren</a>
@@ -81,28 +92,46 @@
 <section id="damen">
     <h2 style="text-align:center; margin-top:40px;">Damen</h2>
     <div class="products">
-        <!-- Beispielprodukt - später durch eigene Produkte ersetzen -->
+        <!-- Produktblock 1 -->
         <div class="product">
-            <img src="https://via.placeholder.com/200x250.png?text=Produkt+Bild" alt="Produkt Damen">
-            <h3>Produktname</h3>
+            <img src="bilder/produkt1.jpg" alt="Produkt Damen 1">
+            <h3>Produktname 1</h3>
             <p>Farben: Schwarz</p>
             <p>Größen: S, M, L</p>
             <p>Preis: 49,99€</p>
         </div>
+        <!-- Produktblock 2 -->
+        <div class="product">
+            <img src="bilder/produkt2.jpg" alt="Produkt Damen 2">
+            <h3>Produktname 2</h3>
+            <p>Farben: Weiß</p>
+            <p>Größen: S, M, L</p>
+            <p>Preis: 59,99€</p>
+        </div>
+        <!-- Weitere Produktblöcke einfach kopieren -->
     </div>
 </section>
 
 <section id="herren">
     <h2 style="text-align:center; margin-top:40px;">Herren</h2>
     <div class="products">
-        <!-- Beispielprodukt - später durch eigene Produkte ersetzen -->
+        <!-- Produktblock 1 -->
         <div class="product">
-            <img src="https://via.placeholder.com/200x250.png?text=Produkt+Bild" alt="Produkt Herren">
-            <h3>Produktname</h3>
+            <img src="bilder/produkt3.jpg" alt="Produkt Herren 1">
+            <h3>Produktname 3</h3>
             <p>Farben: Grau</p>
             <p>Größen: M, L, XL</p>
             <p>Preis: 59,99€</p>
         </div>
+        <!-- Produktblock 2 -->
+        <div class="product">
+            <img src="bilder/produkt4.jpg" alt="Produkt Herren 2">
+            <h3>Produktname 4</h3>
+            <p>Farben: Schwarz</p>
+            <p>Größen: M, L, XL</p>
+            <p>Preis: 69,99€</p>
+        </div>
+        <!-- Weitere Produktblöcke einfach kopieren -->
     </div>
 </section>
 
